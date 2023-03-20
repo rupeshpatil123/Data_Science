@@ -1,0 +1,10 @@
+Shape:
+ (0, 0)
+Index:
+ Index([], dtype='object')
+Columns:
+ Index([], dtype='object')
+Unique values:
+ Series([], dtype: float64)
+Null count per column
+Series([], dtype: float64)

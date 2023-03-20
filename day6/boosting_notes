@@ -1,0 +1,21 @@
+ENSEMBLE
+
+
+BAGGING ENSEMBLE(for e.g: RANDOM FOREST)
+
+    -ask multiple models trained/tuned in different ways for an answer. Go with majority
+
+
+
+BOOSTING ENSEMBLE(for e.g : XGBOOST MODEL)
+
+        -send all rows of data to the first model in the ensemble. You get answers back.
+        Some are right, some are wrong.
+
+        - Make the next model of the ensemble focus on inaccurate classification made
+        by the current model
+
+
+                     FIRST MODEL              SECOND MODEL                 THIRD MODEL
+        1000 rows:    900 rows right     ---->100 rows input-------->        30 rows
+                                             70 correct, 30 incorrect

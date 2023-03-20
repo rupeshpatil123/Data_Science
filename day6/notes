@@ -1,0 +1,52 @@
+### methods for splitting data into (training, testing/validation)
+
+train_test_split : stratified ratio-based direct splitting. gives only 1 set each for training & testing 
+
+Kfold : split the data K times. Gives K set each for training & testing
+    -
+    -
+KFOLDCV : 
+    -
+    -
+STRATIFIED K FOLD CV:
+    -
+    -
+
+
+
+
+Note: In a single iteration, same data point cannot be used for training & testing set
+
+Approach 1: Take a fixed ratio of training & testing set. Perform stratification if applicable. (train_test_split)
+            Get one set each for training & testing
+
+
+Approach 2: Split the data randomly in a specified ratio BUT MULTIPLE TIMES. Train & test multiple times  (Cross validation)
+
+
+    300 rows
+
+    cycle 1:    rows 1, 3,4,511...training & remaining testing
+
+
+Approach 3: Let's divide data into K FOLDS                             [KFOLD]
+
+A        B           C         D              E
+1-60    61-120     121-180    181-240      241-300
+
+                Training             Testing
+cycle 1     A,B,C,D                    E
+cycle 2     A,D,E,C                    B
+cycle 3     A,E,B,C                    D
+
+
+
+Approach 4 : Let's divide data into K FOLDS. ENSURE EACH FOLD IS STRATIFIED [STRATIFIED K_FOLD SAMPLING]
+
+A        B           C         D              E
+1-60    61-120     121-180    181-240      241-300
+
+                Training             Testing
+cycle 1     A,B,C,D                    E
+cycle 2     A,D,E,C                    B
+cycle 3     A,E,B,C                    D

@@ -1,0 +1,20 @@
+Shape:
+ (2000, 5)
+Index:
+ RangeIndex(start=0, stop=2000, step=1)
+Columns:
+ Index(['clientid', 'income', 'age', 'loan', 'default'], dtype='object')
+Unique values:
+ clientid    2000
+income      2000
+age         1997
+loan        2000
+default        2
+dtype: int64
+Null count per column
+clientid    0
+income      0
+age         3
+loan        0
+default     0
+dtype: int64

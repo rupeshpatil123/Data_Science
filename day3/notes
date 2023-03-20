@@ -1,0 +1,58 @@
+
+
+## 1) WHY IS ACCURACY SCORE NOT RELIABLE ON IMBALANCED DATA?
+
+
+100 images
+
+90 birds
+10 animals
+
+
+1 image (ANYTHING)------? birds
+
+MAJORITY (NON-DEFAULTERS) 85
+MINORITY (DEFAULTERS)- 15
+
+
+
+50 testing : all 50 are non-defaulters
+
+Minority class-13
+Majority class - 37
+
+
+
+1) ARE YOU USING PCA? IF YES, upto how many features have dimensions been
+reduced????
+
+2) WHAT MIGHT BE THE REASON FOR MISCLASSIFICATION????
+
+
+
+
+PICKLE FILE OF THE MODEL           (SPRING BOOT 
+)                             END USER APP [REACT]
+ ---------------------------------> API LAYER
+(Pythonm environment)
+
+
+
+CURRENT/PREVIOUS
+
+
+COMBINATION 1:  (one splitter, one max_depth, one criterion, one number of estimator)
+
+
+NEXT EXAMPLE
+
+COMBINATION 1: (one algorithm, one parameter of this algorithm, another parameter of this algorithm)
+
+
+
+{
+
+    SVM  : {}
+    RANDOM: {}
+
+}
